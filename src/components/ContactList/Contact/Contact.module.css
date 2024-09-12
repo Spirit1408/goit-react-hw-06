@@ -1,0 +1,25 @@
+.contactCard {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.contactCardInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button {
+    width: fit-content;
+    height: fit-content;
+    padding: 3px 5px;
+}
